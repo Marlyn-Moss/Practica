@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Datos"
+    android:orientation="vertical"
+    android:background="@drawable/datos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="MIS DATOS"
+        android:textColor="@color/blanco"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Marlin Yajaira Moz Marin"
+        android:textColor="@color/blanco"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="MM15-I04-004"
+        android:textColor="@color/blanco"
+        android:textSize="20dp" />
+
+</LinearLayout>
